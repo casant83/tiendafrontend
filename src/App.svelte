@@ -9,6 +9,7 @@
     clientes :   "https://tiendabackend.herokuapp.com/api/clientes/"
   };
 
+  //nombre, variable
   setContext("URL", URL);
 </script>
 
