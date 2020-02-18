@@ -6,13 +6,14 @@
   export let coleccion = "articulos"; // articulos, clientes
   export let documento = {};
   
- 
+  //handler: puntero a una función, que puede apuntar a cualquier función (insertar, modificar...)
   let handler = () => {};  
   let clases = "";
   let url = "";
 
   const URL = getContext("URL"); 
 
+  //onMount: cuando se muestra por primera vez
   onMount(() => {
     switch (tipo) {
       case "insertar":
@@ -76,8 +77,9 @@
       })
       .catch(err => ko());
   }
-
+  
   let ok = () => {
+    //getElementeById -> muestra el elemento con id="OK": las caritas de la esquina cuando guardas un artículo
     OK.style.display = "block";
     setTimeout(() => (OK.style.display = "none"), 1500);
   }
@@ -160,4 +162,5 @@
   }
 </style>
 
+<!--uso las clase y el handler que antes he establecido en los switch-->
 <button class={clases} on:click={handler} />
