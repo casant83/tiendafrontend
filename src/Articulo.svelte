@@ -46,6 +46,7 @@
 </style>
 
 <div class="card">
+  <!--bind coge el texto que introduzca el usuario en la variable artículo, declarada aquí y en el atributo nombre, igual luego con el precio-->
   <input bind:value={articulo.nombre} class="title" />
   <input
     type="number"
@@ -53,5 +54,6 @@
     max="9999.99"
     step=".01"
     bind:value={articulo.precio} />  €
+  <!--Slot deja como un hueco en el que luego se van a poner los botones (que es un componente que puede ser distintos en cada card)-->
   <slot />
 </div>
