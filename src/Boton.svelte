@@ -3,7 +3,7 @@
   import { jsonData }            from "./store.js";
 
   export let tipo = "insertar"; // insertar, modificar, eliminar
-  export let coleccion = "articulos"; // articulos, clientes
+  export let coleccion = "productos"; // articulos, clientes
   export let documento = {};
   
   //handler: puntero a una función, que puede apuntar a cualquier función (insertar, modificar...)
@@ -32,7 +32,7 @@
     }
 
     switch (coleccion) {
-      case "articulos": url=URL.articulos; break;
+      case "articulos": url=URL.productos; break;
       case "clientes": url=URL.clientes; break;
       default:
     }
