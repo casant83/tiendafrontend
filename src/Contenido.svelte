@@ -1,7 +1,7 @@
 <script>
   import { Route }  from "svelte-routing";
   import Inicio     from "./Inicio.svelte";
-  import Articulos  from "./Articulos.svelte";
+  import Productos  from "./Productos.svelte";
   import Clientes   from "./Clientes.svelte";
 </script>
 
@@ -14,6 +14,6 @@
 
 <main id="contenido">
   <Route path="/" component={Inicio} />
-  <Route path="/articulos" component={Articulos} />
+  <Route path="/productos" component={Productos} />
   <Route path="/clientes" component={Clientes} />
 </main>
