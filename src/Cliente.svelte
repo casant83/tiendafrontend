@@ -33,10 +33,11 @@
     max-width: 140px;
   }
 
-  /* input[type="number"] {
+  input[type="number"] {
     text-align: right;
     width: 100px;
-  } */
+  }
+  
   input:focus {
     background-color: #8bbabb;
   }
@@ -51,6 +52,10 @@
   <input bind:value={cliente.nombre} class="title" />
   <input bind:value={cliente.apellidos} class="title" />
   <input bind:value={cliente.direccion} />
-  <input bind:value={cliente.telefono} />
+  <input 
+    type="number"
+    min="0"
+    max="999999999" 
+    bind:value={cliente.telefono} />
   <slot />
 </div>
