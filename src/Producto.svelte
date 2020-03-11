@@ -54,6 +54,13 @@
     max="9999.99"
     step=".01"
     bind:value={producto.precio} />  €
+  <input 
+    type="number"
+    min="0"
+    max="9999.99"
+    step=".01" 
+    bind:value={producto.cantidad} />
+  <input bind:value={producto.codigoProducto} />
 
     <!--Slot deja como un hueco en el que luego se van a poner los botones (que es un componente que puede ser distintos en cada card)-->
   <slot />
