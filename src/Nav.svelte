@@ -84,7 +84,7 @@
       <Link to="/">🛒 Inicio</Link>
     </li>
     <li class="item active">
-      <Link to="/articulos">🎁 Artículos</Link>
+      <Link to="/productos">🎁 Productos</Link>
     </li>
     <li class="item active">
       <Link to="/clientes">👥 Clientes</Link>
