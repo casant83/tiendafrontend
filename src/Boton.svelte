@@ -32,7 +32,7 @@
     }
 
     switch (coleccion) {
-      case "articulos": url=URL.productos; break;
+      case "productos": url=URL.productos; break;
       case "clientes": url=URL.clientes; break;
       default:
     }
