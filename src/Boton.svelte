@@ -109,7 +109,7 @@
   .btn-insertar {
     border: 1px solid #13a600;
     color: #13a600;
-    background-color: #lightgreen;
+    background-color: lightgreen;
   }
   .btn-insertar::before {
     content: "✏️";
