@@ -34,6 +34,10 @@
     white-space: nowrap;
   }
 
+  .menu li a :visited {
+    color: rgb(255,255,255);
+  }
+
   /* Móvil */
   .menu {
     display: flex;
