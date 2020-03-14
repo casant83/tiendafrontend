@@ -107,9 +107,9 @@
 
   /* Botón para insertar */
   .btn-insertar {
-    border: 1px solid #13a600;
+    border: 1px solid #75ad88;
     color: #13a600;
-    background-color: lightgreen;
+    background-color: #B3DBC0;
   }
   .btn-insertar::before {
     content: "✏️";
@@ -118,7 +118,8 @@
     content: " Insertar";
   }
   .btn-insertar:hover {
-    background: #c1ffc9;
+    background: #75ad88;
+    opacity: 50%;
   }
 
   /* Botón para modificar */

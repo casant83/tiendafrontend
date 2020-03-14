@@ -9,12 +9,13 @@
   }
 
   nav {
-    background: #fdebc9;
+    background: #464159;
     padding: 8px;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     width: 100%;
+    color: white;
   }
 
   ul {
@@ -22,7 +23,7 @@
   }
 
   .menu li:hover {
-    text-shadow: 3px 3px 4px #6f6f70;
+    text-shadow: 3px 3px 4px #fdf6f6;
   }
 
   .menu li {
