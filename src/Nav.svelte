@@ -15,7 +15,6 @@
     position: sticky;
     top: 0;
     width: 100%;
-    color: white;
   }
 
   ul {
@@ -27,6 +26,7 @@
   }
 
   .menu li {
+    color: white;
     font-weight: bold;
     font-size: 16px;
     padding: 15px 5px;
