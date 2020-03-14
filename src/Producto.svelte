@@ -49,20 +49,20 @@
 
 <div class="card">
   <!--bind coge el texto que introduzca el usuario en la variable artículo, declarada aquí y en el atributo nombre, igual luego con el precio-->
-  <input bind:value={producto.nombre} class="title" />
+  <input bind:value={producto.nombre} class="title" placeholder="Nombre"/>
   <input
     type="number"
     min="0"
     max="9999.99"
     step=".01"
-    bind:value={producto.precio} />  €
+    bind:value={producto.precio} placeholder="Precio"/> €
   <input 
     type="number"
     min="0"
     max="9999.99"
     step=".01" 
-    bind:value={producto.cantidad} />
-  <input bind:value={producto.codigoProducto} />
+    bind:value={producto.cantidad} placeholder="Cantidad"/>
+  <input bind:value={producto.codigoProducto} placeholder="Código"/>
 
     <!--Slot deja como un hueco en el que luego se van a poner los botones (que es un componente que puede ser distintos en cada card)-->
   <slot />

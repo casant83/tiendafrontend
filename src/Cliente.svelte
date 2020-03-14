@@ -49,13 +49,9 @@
 </style>
 
 <div class="card" on:click>
-  <input bind:value={cliente.nombre} class="title" />
-  <input bind:value={cliente.apellidos} class="title" />
-  <input bind:value={cliente.direccion} />
-  <input 
-    type="number"
-    min="0"
-    max="999999999" 
-    bind:value={cliente.telefono} />
+  <input bind:value={cliente.nombre} class="title" placeholder="Nombre"/>
+  <input bind:value={cliente.apellidos} class="title" placeholder="Apellidos"/>
+  <input bind:value={cliente.direccion} placeholder="Dirección"/>
+  <input bind:value={cliente.telefono} placeholder="Teléfono"/>
   <slot />
 </div>
