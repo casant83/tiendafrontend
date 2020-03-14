@@ -18,7 +18,9 @@
   }
 
   ul {
+    color: white;
     list-style-type: none;
+    
   }
 
   .menu li:hover {
@@ -26,7 +28,6 @@
   }
 
   .menu li {
-    color: white;
     font-weight: bold;
     font-size: 16px;
     padding: 15px 5px;
